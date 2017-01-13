@@ -79,7 +79,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
     <?php
   }
 
-  // Send form AJAX --------------------------
+  // Send form AJAX -------------------------
   if (defined('DOING_AJAX') && DOING_AJAX) { 
 
     add_action( 'wp_ajax_wc_return_form', 'send_wc_return_form' );
